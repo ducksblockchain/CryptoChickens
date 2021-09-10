@@ -91,9 +91,9 @@ function NotFoundPage(props) {
                 let cardIdEpic = Math.round(randomCard(0, 14))
                 let cardChanceRare = Math.round(randomCard(0, 100))
                 if (cardChanceRare <= 70) {
-                  props.chooseCommonImage(cardIdRare, event.target.value)
+                  props.chooseCommonImage(cardIdCommon, event.target.value)
                 } else if (70 < cardChanceRare && cardChanceRare < 90) {
-                  props.chooseRareImage(cardIdEpic, event.target.value)
+                  props.chooseRareImage(cardIdRare, event.target.value)
                 } else {
                   props.chooseEpicImage(cardIdEpic, event.target.value)
                 }

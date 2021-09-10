@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
 import birdy from '../6oa.gif';
-import name from '../stolenProperty.svg';
 import { Link } from 'react-router-dom';
 import FarmerPage from './FarmerPage';
 import memepack from '../memepack.png';
 import rarepack from '../RarePack.png';
 import commonpack from '../CommonPack.png';
-import chickenLogo1 from '../ChickenLogo1.png';
 import chickenLogo2 from '../ChickenLogo2.png';
 import chickenLogo from '../LogoChicken.png';
 import twitter from '../footer-twitter.svg';

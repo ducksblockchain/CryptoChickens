@@ -218,7 +218,7 @@ class App extends Component {
                   loading={this.state.loading}
                   account={this.state.account} />
           }
-          { this.state.loading ? <a href="https://metamask.io/"><img src={MetaMask} className="metamask" /></a> : "" }
+          { this.state.loading ? <a href="https://metamask.io/"><img src={MetaMask} className="metamask" alt="" /></a> : "" }
           </div>
         </div>
       </div>
