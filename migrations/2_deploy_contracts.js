@@ -1,5 +1,5 @@
-const Color = artifacts.require("Color");
+const CryptoChickens = artifacts.require("CryptoChickens");
 
 module.exports = function(deployer) {
-  deployer.deploy(Color);
+  deployer.deploy(CryptoChickens);
 };
