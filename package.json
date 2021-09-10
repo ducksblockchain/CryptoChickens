@@ -1,8 +1,8 @@
 {
-  "name": "eth-marketplace",
+  "name": "crypto-chickens",
   "version": "0.1.0",
-  "description": "An Ethereum Marketplace",
-  "author": "gregory@dappuniversity.com",
+  "description": "A Chicken NFT game",
+  "author": "DhruPatel",
   "dependencies": {
     "@openzeppelin/contracts": "^2.3.0",
     "babel-polyfill": "6.26.0",
