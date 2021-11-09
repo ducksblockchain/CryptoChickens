@@ -10,7 +10,7 @@ contract CryptoChickens is ERC721Full, Ownable {
   uint256 public constant MAX_MEMEBREED = 45;
   uint256 public constant MAX_RAREPACK = 260;
   uint256 public constant MAX_COMMONPACK = 300;
-  uint256 public constant reveal_timestamp = 1631177700000;
+  uint256 public constant reveal_timestamp = 1631496000000;
   uint256 public constant MEMEPRICE = 1 * 10**17;
   uint256 public constant RAREPRICE = 2 * 10**16;
   uint256 public constant COMMONPRICE = 1 * 10**15;
